@@ -109,7 +109,7 @@ wrong_pred = 0
 for i in range(len(labels)):
     if (results[i] != labels[i]):
         wrong_pred += 1
-print(wrong_pred)
+print(wrong_pred)```
 
 ## 📊 Results
 Using an alpha (learning rate) of 0.00000005, the neural network achieved 2172 wrong predictions on the test set. 
